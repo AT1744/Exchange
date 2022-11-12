@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet href="style.css">
+    <title>Menjacnica</title>
+</head>
+<body>
+    <img src="crypto.jpg" alt="nije ucitana" class="money-img">
+    <h1>Menjacnica</h1>
+    <p>Izabrati vasu valutu i sumu novca zamenjenu svotu novca</p>
+    <div class="container">
+        <div class="currency">
+        <select id="currency-one">
+            <option value="EUR">EURO</option>
+            <option value="USD" selected>USD</option>
+            <option value="RSD">RSD</option>
+        </select>
+        <input type="number" id="amount-one" placeholder="unesite sumu" value="1">
+        </div>
+
+        <div class="currency">
+            <select id="currency-two">
+            <option value="EUR">EURO</option>
+            <option value="USD" selected>USD</option>
+            <option value="RSD">RSD</option>
+        </select>
+        <input type="number" id="amount-two"/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
